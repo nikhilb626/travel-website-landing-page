@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my slider</title>
+    <link rel="stylesheet" type="text/css" href="myslider.css">
+</head>
+<body>
+    <div id="myslidenav" class="slidenav" >
+      <a href="javascript:void" class="closebtn" onclick="closenav()">&times;</a>
+      <a href="#">HOME</a>
+      <a href="#">SERVICES</a>
+      <a href="#">CLIENTS</a>
+      <a href="#">CONTACT</a>
+    </div>
+<div class="elements"><h2>TRAVEL AGENCY</h2>
+    
+    <h1 style="font-size:30px; cursor:pointer" onclick="opennav()">&#9776;</h1></div>
+    <div class="log">
+        <a href="#">[Login]</a>
+    </div><br>
+
+    <div class="searchbar">
+        
+            <div class="element-one"><input type="text" placeholder="search for services..."></div>
+            <div class="element-two"><select placeholder="country">
+                <option value="#">COUNTRY</option>
+                <option value="#">united state</option>
+                <option value="#">colombia</option>
+                <option value="#">argentina</option>
+                <option value="#">brazil</option>
+                <option value="#">peru</option>
+                <option value="#">republican</option>
+                <option value="#">cuba</option>
+                <option value="#">COmbodia</option>
+                <option value="#">india</option>
+                <option value="#">china</option>
+                <option value="#">australia</option>
+                <option value="#">ghana</option>
+                <option value="#">japan</option>
+            </select></div>
+            <div class="element-three">
+                <select>
+                    <option value="#">DAYS</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                </select>
+            </div>
+            <div class="element-four"><button class="btn">SEARCH</button></div>
+
+    </div>
+    
+   <script>
+       function opennav(){
+           document.getElementById("myslidenav").style.width="250px";
+       }
+       function closenav(){
+           document.getElementById("myslidenav").style.width="0";
+       }
+   </script>
+</body>
+</html>
